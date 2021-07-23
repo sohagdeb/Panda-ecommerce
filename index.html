@@ -7,12 +7,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/53b23fd92a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
   <title>PANDA COMMERCE</title>
 </head>
 <body>
   <header>
-    <nav class="container navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand col-1 col-lg-3" href="#">
+    <nav class="container navbar navbar-expand-lg navbar-light bg-light animate__animated animate__fadeInUp">
+      <a class="navbar-brand col-1 col-lg-3 " href="#">
         <img src="/images/logo.png" width="113.09px" height="30.81px" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,22 +30,23 @@
         </form>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link text-primary" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Product</a>
+            <a class="nav-link text-primary" href="#">Product</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link text-primary" href="#">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link text-primary" href="#">Contact Us</a>
           </li>
         </ul>
         
       </div>
     </nav>
-    <div id="carouselExampleControls" class="container carousel slide" data-ride="carousel">
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="container carousel slide text-center" data-ride="carousel">
       <div class="carousel-inner mt-5 rounded-lg carousel-sizing pt-5" style="background: #FEEAE9;"  >
         <div class="carousel-item active">
           <div class="carousel row align-items-center ">
@@ -64,8 +69,8 @@
               <h1 class="price-color">$420</h1>
               <button type="button" class="btn btn-primary btn-lg button-color border-0">Buy Now</button>
             </div>
-            <div class="col-md-5">
-              <img src="images/banner-images/headphone.png" class="d-block w-100" width="402px" height="378px" alt="...">
+            <div class="col-md-5 pb-3">
+              <img src="images/banner-images/headphone.png" class="d-block w-100" width="402px" height="365px" alt="...">
             </div>
           </div>
         </div>
@@ -98,19 +103,19 @@
     <div class="item">
       <div class="container overflow-hidden mt-5">
         <div class="row gy-5">
-          <div class="col-lg-4">
+          <div class="item-img col-lg-4">
             <div class="p-3 border bg-warning text-light d-flex align-items-center rounded-lg justify-content-between">
               <h1>Watch</h1>
               <img src="images/categories/watch.png" width="90px" height="90px" alt="">
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="item-img col-lg-4">
             <div class="p-3 border bg-danger text-light d-flex align-items-center rounded-lg justify-content-between">
               <h1>Bag</h1>
               <img src="images/categories/bag.png" width="90px" height="90px" alt="">
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="item-img col-lg-4">
             <div class="p-3 border text-light bg-primary d-flex align-items-center rounded-lg justify-content-between">
               <h1>Shoes</h1>
               <img src="images/categories/shoes.png" width="90px" height="90px" alt="">
@@ -124,9 +129,10 @@
     <div class="container mt-5">
       <h1>Shoes</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+        <div class="col card-animation">
           <div class="border-0 card h-100 bg-white shadow p-3 mb-5 bg-body rounded">
             <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <br>
             <div class="card-body">
               <h5 class="card-title">Supply 350</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
@@ -137,9 +143,10 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col card-animation">
           <div class="border-0 card h-100 bg-white shadow p-3 mb-5 bg-body rounded">
             <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <br>
             <div class="card-body">
               <h5 class="card-title">Nike 360</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -150,9 +157,10 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col card-animation">
           <div class="border-0 card h-100 bg-white shadow p-3 mb-5 bg-body rounded">
             <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <br>
             <div class="card-body">
               <h5 class="card-title">Red Airmax</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
@@ -169,9 +177,10 @@
     <div class="container mt-5">
       <h1>Backpack</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+        <div class="col card-animation">
           <div class="border-0 card h-100 bg-white shadow p-3 mb-5 bg-body rounded">
             <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <br>
             <div class="card-body">
               <h5 class="card-title">Red Laltu Bag</h5>
               <h5>$120</h5>
@@ -183,9 +192,10 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col card-animation">
           <div class="border-0 card h-100 bg-white shadow p-3 mb-5 bg-body rounded">
             <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <br>
             <div class="card-body">
               <h5 class="card-title">Blue Niltu Bag</h5>
               <h5>$320</h5>
@@ -197,9 +207,10 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col card-animation">
           <div class="border-0 card h-100 bg-white shadow p-3 mb-5 bg-body rounded">
             <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <br>
             <div class="card-body">
               <h5 class="card-title">Black Kaltu Bag</h5>
               <h5>$199</h5>
