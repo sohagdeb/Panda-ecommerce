@@ -1,0 +1,21 @@
+.carousel-sizing{
+    height: auto;
+}
+.button-color{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    transition: 0.5s;
+}
+.button-color:hover{
+    transform: scale(1.2);
+}
+.price-color{
+    color: #FF136F;
+   
+}
+.padding-1{
+    padding-left: 50px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
